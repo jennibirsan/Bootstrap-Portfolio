@@ -4,22 +4,22 @@ body {
 
 nav {
     border-bottom: 3px solid #f8c521;
-
 }
 
 h2 {
     padding: 10px;
 }
+
 .container {
     background-color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 50px;
-      margin-bottom: 70px;
-      padding:20px;
-      width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 20px;
+    width: 70%;
 }
 
 .imageJB {
@@ -27,6 +27,7 @@ h2 {
     padding: 10px;
     border: 2px solid #666666;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
@@ -36,8 +37,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-top: 4px solid 
-    #f8c521;
+    border-top: 4px solid #f8c521;
     position: fixed;
     bottom: 0;
     height: 25px;
@@ -46,24 +46,46 @@ p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-  }
+}
 
-  /* <!-- Note: I got this below code to allign images from w3 schools. link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side --> */
+/* <!-- Note: I got this below code to allign images from w3 schools. link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side --> */
 
 * {
     box-sizing: border-box;
     position: relative;
-  }
-  
-  .city1, .city2, .city3, .city4, .city6 {
+}
+
+.city1, .city2, .city3, .city4, .city6 {
     float: left;
     width: 100%;
     padding: 10px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
+}
+
+/* Clearfix (clear floats) */
+
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+/* <!-- Note: I got this below code to allign text boxes over images from w3 schools. link: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp --> */
+
+.row {
+    position: relative;
+}
+
+/* Bottom right text */
+
+.box-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f8c521;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+}
+
+/* NOTE: I need help with alligning the text boxes properly on top of the images. */
