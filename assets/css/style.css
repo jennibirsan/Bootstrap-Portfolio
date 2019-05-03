@@ -7,6 +7,9 @@ nav {
 
 }
 
+h2 {
+    padding: 10px;
+}
 .container {
     background-color: white;
       font-family: Arial, Helvetica, sans-serif;
@@ -43,4 +46,24 @@ p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+  }
+
+  /* <!-- Note: I got this below code to allign images from w3 schools. link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side --> */
+
+* {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .city1, .city2, .city3, .city4, .city6 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
