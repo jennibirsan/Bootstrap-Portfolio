@@ -59,6 +59,7 @@ p {
     float: left;
     width: 100%;
     padding: 10px;
+    overflow: auto;
 }
 
 /* Clearfix (clear floats) */
@@ -86,6 +87,8 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     width: auto;
+    margin-bottom: 0;
+    line-height: 30px;
 }
 
 /* NOTE: I need help with alligning the text boxes properly on top of the images. */
